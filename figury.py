@@ -19,10 +19,10 @@ def pole_trojkata(a, h):
 
 def pole_trapezu(a, b, h):
     return (a + b) / 2 * h
-
+Menu_Figury = IntEnum("Menu_Figury", "Kwadrat Prostokat Kolo Trojkat Trapez Koniec")
 while(True):
 
-    Menu_Figury = IntEnum("Menu_Figury", "Kwadrat Prostokat Kolo Trojkat Trapez Koniec")
+
     wybor = int(input("""1. Pole kwadratu
 2. Pole prostokata
 3. Pole kola
